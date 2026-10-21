@@ -1,0 +1,18 @@
+{
+  "name": "zircon-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.cjs",
+    "start": "python -m http.server 8080 --directory dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "type": "commonjs",
+  "dependencies": {
+    "plotly.js-dist-min": "^4.1.1",
+    "xlsx": "^0.18.5"
+  }
+}
